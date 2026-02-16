@@ -1,0 +1,6 @@
+# La dirección base donde viven los archivos
+BASE=https://d37ci6vzurychx.cloudfront.net/trip-data
+
+# Meses que quieres descargar:
+2025-07;
+
