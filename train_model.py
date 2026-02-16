@@ -27,8 +27,8 @@ import joblib
 # Estas variables son las credenciales y ubicación del servidor SQL.
 SERVER = r"DESKTOP-5VDFT83\SQLEXPRESS"
 DB = "TaxiML"
-USER = "user_daemon"
-PWD = "userdaemon"
+USER = "usuario"
+PWD = "clave"
 
 # create_engine crea un "motor" (engine) para conectarse a SQL usando SQLAlchemy.
 # mssql+pyodbc indica que hablamos con SQL Server usando el driver ODBC.

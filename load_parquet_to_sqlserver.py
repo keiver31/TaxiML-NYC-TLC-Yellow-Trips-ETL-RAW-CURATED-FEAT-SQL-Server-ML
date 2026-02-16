@@ -31,8 +31,8 @@ import pyodbc
 # Datos de conexión a SQL Server
 SERVER = r"DESKTOP-5VDFT83\SQLEXPRESS"  # nombre del servidor\instancia
 DB = "TaxiML"                           # base de datos
-USER = "user_daemon"                    # usuario SQL
-PWD = "userdaemon"                      # contraseña SQL
+USER = "usuario"                    # usuario SQL
+PWD = "clave"                      # contraseña SQL
 
 # Carpeta donde están los archivos .parquet (entrada)
 PARQUET_DIR = Path(r"C:\Users\Keiver\Downloads\Proyecto_RegresionLineal\data\raw\yellow")

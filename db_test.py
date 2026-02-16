@@ -2,8 +2,8 @@ import pyodbc
 
 server = r"DESKTOP-5VDFT83\SQLEXPRESS"
 database = "TaxiML"
-username = "user_daemon"
-password = "userdaemon"  # pon tu clave
+username = "usuario"
+password = "clave"  # pon tu clave
 
 conn = pyodbc.connect(
     "DRIVER={ODBC Driver 17 for SQL Server};"
